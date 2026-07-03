@@ -82,10 +82,14 @@ export function AdminDashboard({ initialContent }: AdminDashboardProps) {
     });
 
     setSaving(false);
-    showMessage(
-      response.ok ? "Alterações salvas com sucesso!" : "Não foi possível salvar. Tente novamente.",
-      response.ok ? "success" : "error"
-    );
+
+    if (response.ok) {
+      showMessage("Alterações salvas com sucesso!");
+      return;
+    }
+
+    const data = (await response.json().catch(() => ({}))) as { error?: string };
+    showMessage(data.error ?? "Não foi possível salvar. Tente novamente.", "error");
   }
 
   async function logout() {

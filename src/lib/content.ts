@@ -1,6 +1,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { head, put } from "@vercel/blob";
+import { get, put } from "@vercel/blob";
+import { BLOB_ACCESS } from "@/lib/blob";
 import type { SiteContent } from "@/lib/types";
 
 const BLOB_PATH = "content/esclima-site-content.json";
@@ -24,36 +25,30 @@ async function readFromBlob(): Promise<SiteContent | null> {
   }
 
   try {
-    const meta = await head(BLOB_PATH, { token });
-    if (!meta?.url) {
+    const result = await get(BLOB_PATH, { access: BLOB_ACCESS, token });
+    if (!result) {
       return null;
     }
 
-    const response = await fetch(meta.url, { cache: "no-store" });
-    if (!response.ok) {
-      return null;
-    }
-
-    return (await response.json()) as SiteContent;
+    const raw = await new Response(result.stream).text();
+    return JSON.parse(raw) as SiteContent;
   } catch {
     return null;
   }
 }
 
-async function writeToBlob(content: SiteContent): Promise<boolean> {
+async function writeToBlob(content: SiteContent): Promise<void> {
   const token = process.env.BLOB_READ_WRITE_TOKEN;
   if (!token) {
-    return false;
+    throw new Error("BLOB_READ_WRITE_TOKEN não configurado");
   }
 
   await put(BLOB_PATH, JSON.stringify(content, null, 2), {
-    access: "public",
+    access: BLOB_ACCESS,
     token,
     allowOverwrite: true,
     contentType: "application/json"
   });
-
-  return true;
 }
 
 export async function getContent(): Promise<SiteContent> {
@@ -71,11 +66,13 @@ export async function getContent(): Promise<SiteContent> {
 }
 
 export async function saveContent(content: SiteContent): Promise<SiteContent> {
-  const savedToBlob = await writeToBlob(content);
+  const token = process.env.BLOB_READ_WRITE_TOKEN;
 
-  if (!savedToBlob) {
-    await writeFile(LOCAL_PATH, JSON.stringify(content, null, 2), "utf-8");
+  if (token) {
+    await writeToBlob(content);
+    return content;
   }
 
+  await writeFile(LOCAL_PATH, JSON.stringify(content, null, 2), "utf-8");
   return content;
 }

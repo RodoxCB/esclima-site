@@ -1,6 +1,7 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { put } from "@vercel/blob";
+import { BLOB_ACCESS, blobMediaUrl } from "@/lib/blob";
 
 export const UPLOAD_FOLDERS = ["gallery", "site"] as const;
 
@@ -20,11 +21,11 @@ export async function uploadImage(file: File, folder: UploadFolder = "site"): Pr
 
   if (token) {
     const blob = await put(`uploads/${folder}/${filename}`, file, {
-      access: "public",
+      access: BLOB_ACCESS,
       token
     });
 
-    return blob.url;
+    return blobMediaUrl(blob.pathname);
   }
 
   const targetDir = path.join(process.cwd(), "public", "assets", "uploads", folder);

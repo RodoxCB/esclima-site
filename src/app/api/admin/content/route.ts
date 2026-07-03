@@ -13,7 +13,12 @@ export async function PUT(request: Request) {
     return NextResponse.json({ error: "Não autorizado" }, { status: 401 });
   }
 
-  const content = (await request.json()) as SiteContent;
-  await saveContent(content);
-  return NextResponse.json({ ok: true });
+  try {
+    const content = (await request.json()) as SiteContent;
+    await saveContent(content);
+    return NextResponse.json({ ok: true });
+  } catch (error) {
+    console.error("Erro ao salvar conteúdo:", error);
+    return NextResponse.json({ error: "Não foi possível salvar agora." }, { status: 500 });
+  }
 }
