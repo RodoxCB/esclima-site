@@ -159,45 +159,87 @@
   "gallery": [
     {
       "id": "1",
-      "url": "https://images.unsplash.com/photo-1631545806609-95d7e50c3a78?w=800&q=80",
-      "title": "Instalação split residencial",
+      "url": "/assets/gallery/01-instalacao-split.jpg",
+      "title": "Instalação split 12.000 BTUs",
       "category": "instalacao",
-      "description": "Instalação completa com acabamento profissional."
+      "description": "Instalação de ar-condicionado split com acabamento profissional."
     },
     {
       "id": "2",
-      "url": "https://images.unsplash.com/photo-1585771724684-38269c663a04?w=800&q=80",
-      "title": "Manutenção preventiva",
+      "url": "/assets/gallery/02-servico-tecnico.jpg",
+      "title": "Serviço técnico especializado",
       "category": "manutencao",
-      "description": "Revisão e limpeza de equipamento."
+      "description": "Atendimento técnico com equipamentos profissionais."
     },
     {
       "id": "3",
-      "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
-      "title": "Instalação comercial",
-      "category": "instalacao",
-      "description": "Climatização de ambiente comercial."
+      "url": "/assets/gallery/03-higienizacao-importancia.jpg",
+      "title": "Importância da higienização",
+      "category": "higienizacao",
+      "description": "Ar condicionado limpo faz toda a diferença para o seu bem-estar e saúde."
     },
     {
       "id": "4",
-      "url": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=800&q=80",
-      "title": "Higienização completa",
+      "url": "/assets/gallery/04-antes-depois-higienizacao.jpg",
+      "title": "Antes e depois da higienização",
       "category": "higienizacao",
-      "description": "Limpeza profunda de serpentinas."
+      "description": "Higienização completa com resultado visível."
     },
     {
       "id": "5",
-      "url": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&q=80",
-      "title": "Manutenção técnica",
+      "url": "/assets/gallery/05-trabalho-realizado.jpg",
+      "title": "Trabalho realizado",
       "category": "manutencao",
-      "description": "Diagnóstico e reparo especializado."
+      "description": "Um pouquinho do nosso dia a dia nos serviços de climatização."
     },
     {
       "id": "6",
-      "url": "https://images.unsplash.com/photo-1607408493470-53148aa6c6b8?w=800&q=80",
-      "title": "Instalação multi-split",
+      "url": "/assets/gallery/06-manutencao-01.jpg",
+      "title": "Manutenção em campo",
+      "category": "manutencao",
+      "description": "Serviço de manutenção com atenção aos detalhes."
+    },
+    {
+      "id": "7",
+      "url": "/assets/gallery/07-manutencao-02.jpg",
+      "title": "Manutenção preventiva",
+      "category": "manutencao",
+      "description": "Cuidado preventivo para manter o equipamento funcionando bem."
+    },
+    {
+      "id": "8",
+      "url": "/assets/gallery/08-instalacao-02.jpg",
+      "title": "Instalação de ar-condicionado",
       "category": "instalacao",
-      "description": "Sistema multi-split em residência."
+      "description": "Instalação realizada com qualidade e segurança."
+    },
+    {
+      "id": "9",
+      "url": "/assets/gallery/09-instalacao-03.jpg",
+      "title": "Projeto de instalação",
+      "category": "instalacao",
+      "description": "Mais um ambiente climatizado pela Esclima."
+    },
+    {
+      "id": "10",
+      "url": "/assets/gallery/10-manutencao-03.jpg",
+      "title": "Atendimento técnico",
+      "category": "manutencao",
+      "description": "Equipe qualificada no atendimento ao cliente."
+    },
+    {
+      "id": "11",
+      "url": "/assets/gallery/11-manutencao-04.jpg",
+      "title": "Serviço de climatização",
+      "category": "manutencao",
+      "description": "Manutenção e cuidado com sistemas de ar-condicionado."
+    },
+    {
+      "id": "12",
+      "url": "/assets/gallery/12-manutencao-05.jpg",
+      "title": "Trabalho em andamento",
+      "category": "manutencao",
+      "description": "Compromisso com qualidade em cada serviço."
     }
   ]
 }
