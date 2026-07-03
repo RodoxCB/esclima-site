@@ -1,0 +1,203 @@
+{
+  "site": {
+    "name": "Esclima Refrigeração",
+    "tagline": "Climatização profissional para o seu conforto",
+    "instagram": "https://www.instagram.com/esclimarefrigeracao",
+    "schedule": "Segunda a sábado, das 8h às 18h",
+    "address": "Atendemos toda a região — consulte disponibilidade"
+  },
+  "contact": {
+    "whatsappNumber": "5527999999999",
+    "whatsappMessage": "Olá! Gostaria de solicitar um orçamento de climatização.",
+    "phoneDisplay": "(27) 99999-9999"
+  },
+  "navLinks": [
+    { "href": "/#inicio", "label": "Início" },
+    { "href": "/#servicos", "label": "Serviços" },
+    { "href": "/#diferenciais", "label": "Diferenciais" },
+    { "href": "/#avaliacoes", "label": "Avaliações" },
+    { "href": "/#galeria", "label": "Projetos" },
+    { "href": "/#sobre", "label": "Sobre" },
+    { "href": "/#contato", "label": "Contato" }
+  ],
+  "services": [
+    {
+      "icon": "wind",
+      "title": "Instalação de ar-condicionado",
+      "description": "Instalação completa com equipamentos de qualidade, posicionamento ideal e acabamento profissional.",
+      "benefit": "Ambiente climatizado com máxima eficiência energética."
+    },
+    {
+      "icon": "wrench",
+      "title": "Manutenção preventiva",
+      "description": "Revisões periódicas para evitar quebras, reduzir consumo e prolongar a vida útil do equipamento.",
+      "benefit": "Economia e tranquilidade o ano inteiro."
+    },
+    {
+      "icon": "settings",
+      "title": "Manutenção corretiva",
+      "description": "Diagnóstico rápido e reparo de falhas em split, multi-split, cassete e sistemas centrais.",
+      "benefit": "Seu ar volta a funcionar no menor tempo possível."
+    },
+    {
+      "icon": "sparkles",
+      "title": "Higienização",
+      "description": "Limpeza profunda de filtros, serpentinas e dutos para eliminar fungos, bactérias e odores.",
+      "benefit": "Ar mais puro e saudável para toda a família."
+    },
+    {
+      "icon": "gauge",
+      "title": "Carga de gás",
+      "description": "Recarga de gás refrigerante com equipamento de precisão e verificação de vazamentos.",
+      "benefit": "Resfriamento ideal sem desperdício de energia."
+    }
+  ],
+  "differentials": [
+    {
+      "icon": "zap",
+      "title": "Atendimento rápido",
+      "description": "Resposta ágil no WhatsApp e agendamento flexível para resolver sua necessidade sem demora."
+    },
+    {
+      "icon": "badge-check",
+      "title": "Profissionais qualificados",
+      "description": "Técnicos experientes e treinados para instalação e manutenção com segurança."
+    },
+    {
+      "icon": "shield",
+      "title": "Garantia no serviço",
+      "description": "Trabalho com garantia e transparência em cada etapa do atendimento."
+    },
+    {
+      "icon": "tool",
+      "title": "Equipamentos profissionais",
+      "description": "Ferramentas e instrumentos de medição para diagnóstico preciso e instalação impecável."
+    },
+    {
+      "icon": "award",
+      "title": "Experiência no mercado",
+      "description": "Anos de atuação em climatização residencial e comercial com clientes satisfeitos."
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Carlos M.",
+      "text": "Instalaram meu ar-condicionado com muita atenção. Ficou perfeito e o ambiente esfriou na hora. Recomendo!"
+    },
+    {
+      "name": "Fernanda S.",
+      "text": "Fiz a higienização e a diferença foi enorme. Cheiro de ar limpo e muito mais conforto. Atendimento nota 10."
+    },
+    {
+      "name": "Roberto L.",
+      "text": "Meu ar parou de gelar e eles resolveram no mesmo dia. Preço justo e serviço de qualidade. Já salvei o contato."
+    },
+    {
+      "name": "Juliana P.",
+      "text": "Profissionais pontuais, educados e que explicam tudo. Fiz manutenção preventiva e estou muito satisfeita."
+    }
+  ],
+  "about": {
+    "title": "Sobre a Esclima Refrigeração",
+    "paragraphs": [
+      "A Esclima Refrigeração nasceu da paixão por proporcionar conforto térmico com excelência técnica. Atuamos em instalação, manutenção e higienização de sistemas de ar-condicionado para residências, comércios e empresas.",
+      "Nosso compromisso é entregar um serviço transparente, com profissionais qualificados, equipamentos de ponta e atendimento humanizado. Cada projeto é tratado com a mesma dedicação — do orçamento à entrega final.",
+      "Confie na Esclima para manter seu ambiente sempre na temperatura ideal."
+    ]
+  },
+  "copy": {
+    "hero": {
+      "badge": "Atendimento rápido via WhatsApp",
+      "title": "Especialistas em",
+      "titleHighlight": "Climatização de Ambientes",
+      "subtitle": "Instalação, manutenção e higienização de ar-condicionado com qualidade técnica e atendimento que você pode confiar.",
+      "complement": "Orçamento sem compromisso. Resposta rápida e agendamento flexível.",
+      "ctaGallery": "Ver projetos",
+      "trust1": "Garantia no serviço",
+      "trust2": "Técnicos qualificados"
+    },
+    "services": {
+      "title": "Nossos Serviços",
+      "subtitle": "Soluções completas em climatização para o seu conforto o ano inteiro.",
+      "cta": "Solicitar orçamento",
+      "ctaMessage": "Olá! Gostaria de solicitar um orçamento de climatização."
+    },
+    "differentials": {
+      "title": "Por que escolher a Esclima?",
+      "subtitle": "Compromisso com qualidade, rapidez e transparência em cada atendimento."
+    },
+    "reviews": {
+      "title": "O que nossos clientes dizem",
+      "subtitle": "A satisfação de quem confia no nosso trabalho."
+    },
+    "gallery": {
+      "title": "Projetos realizados",
+      "subtitle": "Confira alguns dos nossos trabalhos de instalação e manutenção.",
+      "instagramCta": "Ver mais no Instagram",
+      "hover": "Ver projeto"
+    },
+    "about": {
+      "title": "Sobre nós",
+      "subtitle": "Conheça quem cuida do seu conforto térmico."
+    },
+    "contact": {
+      "title": "Entre em contato",
+      "subtitle": "Fale conosco agora e receba seu orçamento sem compromisso.",
+      "cta": "Falar no WhatsApp"
+    },
+    "finalCta": {
+      "title": "Pronto para climatizar seu ambiente?",
+      "subtitle": "Chame no WhatsApp e receba um orçamento personalizado. Atendimento rápido e sem burocracia."
+    },
+    "footer": {
+      "contact": "Contato",
+      "schedule": "Horário",
+      "location": "Localização",
+      "copyright": "Todos os direitos reservados."
+    }
+  },
+  "gallery": [
+    {
+      "id": "1",
+      "url": "https://images.unsplash.com/photo-1631545806609-95d7e50c3a78?w=800&q=80",
+      "title": "Instalação split residencial",
+      "category": "instalacao",
+      "description": "Instalação completa com acabamento profissional."
+    },
+    {
+      "id": "2",
+      "url": "https://images.unsplash.com/photo-1585771724684-38269c663a04?w=800&q=80",
+      "title": "Manutenção preventiva",
+      "category": "manutencao",
+      "description": "Revisão e limpeza de equipamento."
+    },
+    {
+      "id": "3",
+      "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
+      "title": "Instalação comercial",
+      "category": "instalacao",
+      "description": "Climatização de ambiente comercial."
+    },
+    {
+      "id": "4",
+      "url": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=800&q=80",
+      "title": "Higienização completa",
+      "category": "higienizacao",
+      "description": "Limpeza profunda de serpentinas."
+    },
+    {
+      "id": "5",
+      "url": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&q=80",
+      "title": "Manutenção técnica",
+      "category": "manutencao",
+      "description": "Diagnóstico e reparo especializado."
+    },
+    {
+      "id": "6",
+      "url": "https://images.unsplash.com/photo-1607408493470-53148aa6c6b8?w=800&q=80",
+      "title": "Instalação multi-split",
+      "category": "instalacao",
+      "description": "Sistema multi-split em residência."
+    }
+  ]
+}
