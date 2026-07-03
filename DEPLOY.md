@@ -4,8 +4,8 @@
 
 | Ambiente | URL |
 |----------|-----|
-| **Production** (`main`) | https://esclima-site.vercel.app |
-| **Preview** (`staging`) | URL por deploy (ex: `esclima-site-git-staging-vdveiculos.vercel.app`) |
+| **Production** (`main`) | https://esclima-site.vercel.app ✅ |
+| **Preview** (`staging`) | Deploy automático a cada push em `staging` |
 | **GitHub** | https://github.com/RodoxCB/esclima-site |
 | **Vercel Dashboard** | https://vercel.com/vdveiculos/esclima-site |
 
